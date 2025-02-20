@@ -14,9 +14,9 @@ body{
 .qr-article{
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: 300px;
     align-items: center;;
-    padding: 17px 17px 35px 17px;
+    padding: 15px 15px 35px 15px;
     background-color: #ffffff;
     border-radius: 20px;
 }
@@ -26,8 +26,8 @@ body{
 }
 .qr-article_header{
     width:85%;
-    margin-top: 30px;
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
