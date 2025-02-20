@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+    background-color: rgb(215, 224, 237);
+    /* box-shadow: 0 -20px 15px 15px rgb(193,201,213); */
+/* background: linear-gradient(to bottom, rgb(215, 224, 237), rgb(193,201,213)); */
+}
+.qr-article{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    align-items: center;;
+    padding: 17px 17px 35px 17px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.qr-article_img{
+    width: 100%;
+    border-radius: 10px;
+}
+.qr-article_header{
+    width:85%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+.qr-article_discription{
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+    width: 85%;
+    text-align: center;
+    margin: 0;
+}
+@media (max-width: 375px){
+    .qr-article{
+        width: 80%;
+    }
+    .qr-article_header,
+    .qr-article_discription{
+        width: 90%;
+    }
+}
